@@ -6,11 +6,11 @@ import theme from './theme';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider
+    {/* <ThemeProvider
       theme={theme}
-    >
-      <App />
-    </ThemeProvider>
+    > */}
+    <App />
+    {/* </ThemeProvider> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
